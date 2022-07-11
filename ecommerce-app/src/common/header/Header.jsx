@@ -1,0 +1,17 @@
+import React from 'react'
+import './header.css'
+import Head from './Head'
+import Search from './Search'
+import Navbar from './Navbar'
+
+const Header = () => {
+    return (
+        <>
+          <Head />
+          <Search />
+          <Navbar />   
+        </>
+    )
+}
+
+export default Header
