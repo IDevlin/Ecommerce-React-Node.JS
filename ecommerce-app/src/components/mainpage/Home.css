@@ -1,0 +1,10 @@
+.category img{
+  padding: 50px;
+  position: absolute;
+ 
+  z-index: 999;
+}
+
+.category span{
+    margin-top: 20px;
+}

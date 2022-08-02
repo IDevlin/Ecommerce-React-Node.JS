@@ -2,9 +2,9 @@ import React from "react";
 
 const Head = () => {
     return (
-        <>
+        
           <section className="head">
-            <div className="container d_flex">
+            <div className="container ">
               <div className="left row">
                 <i className="fa fa-phone"></i> 
                 <label>+9564 3478 1782</label>
@@ -16,14 +16,14 @@ const Head = () => {
                  <label>Theme FAQ's</label>
                  <label>Need Helps</label>
                  <span>🌎</span>
-                 <label>EN</label>
+                 <label htmlFor="">ES</label>
                  <span>🌎</span>
-                 <label>USD</label>
+                 <label htmlFor="">EN</label>
               </div>
 
             </div>
           </section>
-        </>
+       
     )
 }
 
