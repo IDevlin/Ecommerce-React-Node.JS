@@ -78,6 +78,39 @@ input, button{
   box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
 }
 
-.category {
-  position: absolute;
+/*----------Category---------- */
+.contentWidth{
+  width: 77%;
 }
+
+.category {
+  min-width:23%;
+  box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
+  height: 31.8em;
+  padding: 0.9em 0;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.category img {
+  width: 30px;
+  height: 30px;
+  margin: -2.2em -2em ;
+  object-fit: contain;
+}
+
+.category span {
+  margin: 10px 55px
+}
+
+.category .box {
+  transition: 0.5s;
+  padding: 0 20px;
+}
+
+.category .box:hover {
+  background-color: #ffe1ef;
+  cursor: pointer;
+}
+/*----------Category---------- */
+
