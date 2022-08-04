@@ -1,6 +1,4 @@
 
-
-
 body {
   background-color: #ffff;
   font-family: 'Poppins', sans-serif;
@@ -114,3 +112,25 @@ input, button{
 }
 /*----------Category---------- */
 
+/*----------SlideCard---------- */
+
+.top {
+  margin-top: 5em;
+}
+
+.btn-primary {
+  background-color: #e94560;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #ffff;
+  border-radius: 5px;
+}
+
+.mtop {
+  margin-top: 40px;
+}
+
+.heading i {
+  color: #e94560;
+  margin: 10px;
+}

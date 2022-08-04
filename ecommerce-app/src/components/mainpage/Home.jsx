@@ -1,6 +1,5 @@
 import React from 'react'
 import Categories from './Categories'
-import SlideCard  from './SlideCard'
 import "./Home.css"
 import Slider from './Slider'
 

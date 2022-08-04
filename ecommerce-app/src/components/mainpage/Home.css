@@ -1,10 +1,61 @@
+.home {
+  margin-top: 0.7em;
+}
+
 .category img{
   padding: 50px;
-  position: absolute;
- 
+  position: absolute; 
   z-index: 999;
 }
 
 .category span{
     margin-top: 20px;
+}
+
+.homeSlide h1 {
+  font-size: 45px;
+}
+
+.homeSlide p {
+  margin: 20px 0;
+}
+
+.homeSlide ul{
+  position: absolute;
+  bottom: -6em;
+}
+
+.homeSlide ul li{
+  border: 2px solid #b8b7b7;
+  border-radius: 50%;
+}
+
+.homeSlide ul li button {
+  background: transparent !important;
+  color: transparent !important;
+}
+
+.homeSlide ul li button::before{
+  font-size: 15px;
+  color: #0f3460;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.homeSlide .box{
+ display: flex !important;
+}
+
+.homeSlide .box .left{
+  width: 70%;
+}
+
+.homeSlide .box .rigth{
+  width: 30%;
+}
+
+.homeSlide .box img {
+  width: 100%;
+  height: 100%;
 }

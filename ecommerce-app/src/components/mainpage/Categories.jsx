@@ -1,52 +1,61 @@
 import React from 'react'
-import cat1 from "./category/img1.png"
-
+import cat_1 from "./images/category/cat1.png"
+import cat_2 from "./images/category/cat2.png"
+import cat_3 from "./images/category/cat3.png"
+import cat_4 from "./images/category/cat4.png"
+import cat_5 from "./images/category/cat5.png"
+import cat_6 from "./images/category/cat6.png"
+import cat_7 from "./images/category/cat7.png"
+import cat_8 from "./images/category/cat8.png"
+import cat_9 from "./images/category/cat9.png"
+import cat_10 from "./images/category/cat10.png"
+import cat_11 from "./images/category/cat11.png"
 
 const Categories = () => {
     const data = [
       {
-        cateImg: cat1,
+        cateImg: cat_1,
         cateName: "Fashion",
         
       },
       {
-        cateImg: "./images/category/cat2.png",
+        cateImg: cat_2,
         cateName: "Electronic",
       },
       {
-        cateImg: "./images/category/cat3.png",
+        cateImg: cat_3,
         cateName: "Cars",
       },
       {
-        cateImg: "./images/category/cat4.png",
+        cateImg: cat_4,
         cateName: "Home & Garden",
       },
       {
-        cateImg: "./images/category/cat5.png",
+        cateImg: cat_5,
         cateName: "Gifts",
       },
       {
-        cateImg: "./images/category/cat6.png",
+        cateImg: cat_6,
         cateName: "Music",
       },
       {
-        cateImg: "./images/category/cat7.png",
+        cateImg: cat_7,
         cateName: "Health & Beauty",
       },
       {
-        cateImg: "./images/category/cat8.png",
+        cateImg: cat_8,
         cateName: "Pets",
       },
       {
-        cateImg: "./images/category/cat9.png",
-        cateName: "Baby Toys",
+        cateImg: cat_9,
+        cateName: "Baby & Toys",
       },
       {
-        cateImg: "./images/category/cat10.png",
+        cateImg: cat_10,
         cateName: "Groceries",
       },
       {
-        cateImg: "./images/category/cat11.png",
+        cateImg: cat_11,
         cateName: "Books",
       },
     ]
