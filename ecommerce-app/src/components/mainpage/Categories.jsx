@@ -1,61 +1,50 @@
 import React from 'react'
-import cat_1 from "./images/category/cat1.png"
-import cat_2 from "./images/category/cat2.png"
-import cat_3 from "./images/category/cat3.png"
-import cat_4 from "./images/category/cat4.png"
-import cat_5 from "./images/category/cat5.png"
-import cat_6 from "./images/category/cat6.png"
-import cat_7 from "./images/category/cat7.png"
-import cat_8 from "./images/category/cat8.png"
-import cat_9 from "./images/category/cat9.png"
-import cat_10 from "./images/category/cat10.png"
-import cat_11 from "./images/category/cat11.png"
 
 const Categories = () => {
     const data = [
       {
-        cateImg: cat_1,
+        cateImg: "./images/category/cat1.png",
         cateName: "Fashion",
         
       },
       {
-        cateImg: cat_2,
+        cateImg: "./images/category/cat2.png",
         cateName: "Electronic",
       },
       {
-        cateImg: cat_3,
+        cateImg: "./images/category/cat3.png",
         cateName: "Cars",
       },
       {
-        cateImg: cat_4,
+        cateImg: "./images/category/cat4.png",
         cateName: "Home & Garden",
       },
       {
-        cateImg: cat_5,
+        cateImg: "./images/category/cat5.png",
         cateName: "Gifts",
       },
       {
-        cateImg: cat_6,
+        cateImg: "./images/category/cat6.png",
         cateName: "Music",
       },
       {
-        cateImg: cat_7,
+        cateImg: "./images/category/cat7.png",
         cateName: "Health & Beauty",
       },
       {
-        cateImg: cat_8,
+        cateImg: "./images/category/cat8.png",
         cateName: "Pets",
       },
       {
-        cateImg: cat_9,
+        cateImg: "./images/category/cat9.png",
         cateName: "Baby & Toys",
       },
       {
-        cateImg: cat_10,
+        cateImg: "./images/category/cat10.png",
         cateName: "Groceries",
       },
       {
-        cateImg: cat_11,
+        cateImg: "./images/category/cat11.png",
         cateName: "Books",
       },
     ]

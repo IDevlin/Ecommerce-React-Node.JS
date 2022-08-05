@@ -1,32 +1,28 @@
-import slide_1 from "./images/SlidersCard/slide-1.png"
-import slide_2 from "./images/SlidersCard/slide-2.png"
-import slide_3 from "./images/SlidersCard/slide-3.png"
-import slide_4 from "./images/SlidersCard/slide-4.png" 
 
 const Sdata = [
     {
       id: 1,
       title: "50% Off For Your First Shopping",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: slide_1,
+      cover: "./images/SlidersCard/slide-1.png",
     },
     {
       id: 2,
       title: "50% Off For Your First Shopping",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: slide_2,
+      cover: "./images/SlidersCard/slide-2.png",
     },
     {
       id: 3,
       title: "50% Off For Your First Shopping",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: slide_3,
+      cover: "./images/SlidersCard/slide-3.png",
     },
     {
       id: 4,
       title: "50% Off For Your First Shopping",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: slide_4,
+      cover: "./images/SlidersCard/slide-4.png",
     },
   ]
   export default Sdata
