@@ -6,15 +6,15 @@ import Pages from "./pages/Pages";
 import Data from "./components/flashDeals/Data";
 import Cart from "./common/cart/Cart";
 
+
 function App() {
  // step 1: fetch data from database
   const {productItems} = Data
 
-  const [cartItem, setCardItem] = useState([])
-  console.log(cartItem)
+  const [cartItem, setCardItem] = useState([]);
+  
   const addToCart = (product) => {
     const productExit = cartItem.find((item) => item.id === product.id)
-     console.log(productExit)
     if(productExit){
       setCardItem(cartItem.map((item) => 
       (item.id === product.id? {...productExit, qty:productExit.qty + 1 }: item)))
@@ -22,6 +22,17 @@ function App() {
       setCardItem([...cartItem,{...product, qty: 1}])
     }
   }
+
+const decreaseQty = (product) => {
+  const productExit = cartItem.find(item => item.id === product.id)
+   if (product.qty === 1){
+    setCardItem(cartItem.filter(item => item.id !== product.id))
+    }else{
+      setCardItem(cartItem.map(item => (item.id === product.id ? {...productExit, qty: productExit.qty -1}: item)))
+    }
+    console.log(product)
+  }
+
   return (
     <>
       
@@ -33,7 +44,7 @@ function App() {
             <Pages productItems={productItems} addToCart={addToCart}/>
   </Route>
   <Route path="/cart" exact>
-            <Cart cartItem={cartItem} addToCart={addToCart}/>
+            <Cart cartItem={cartItem} addToCart={addToCart} decreaseQty={decreaseQty}/>
   </Route>
         </Switch>
     </Router>

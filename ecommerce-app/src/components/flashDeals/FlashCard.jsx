@@ -40,8 +40,8 @@ const FlashCard = ({productItems, addToCart}) => {
     <>
 
   <Slider {...settings}>
+    
     {productItems.map((productItems)=> {
-
      return ( 
      <div className="box">
        <div className="product mtop">
@@ -73,10 +73,13 @@ const FlashCard = ({productItems, addToCart}) => {
         </div>
       </div>
      ) 
-    })} 
+    })}
+    
   </Slider>
+  
     </>
   )
 }
 
 export default FlashCard
+

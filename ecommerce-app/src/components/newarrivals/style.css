@@ -1,0 +1,21 @@
+.heading img {
+    width: 40px;
+    height: 40px;
+}
+.newarrivals h4 {
+    font-weight: 600;
+}
+
+.newarrivals span {
+    color: #e94560;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.newarrivals .box img {
+    width: auto;
+    height: auto;
+}
+
+/*_________heading_________*/
+

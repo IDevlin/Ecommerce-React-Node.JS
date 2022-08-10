@@ -15,9 +15,9 @@ const Head = () => {
               <div className="right row RText">
                  <label>Theme FAQ's</label>
                  <label>Need Helps</label>
-                 <span>🌎</span>
+                 <span role="img" aria-label="earth">🌎</span>
                  <label htmlFor="">ES</label>
-                 <span>🌎</span>
+                 <span role="img" aria-label="earth">🌎</span>
                  <label htmlFor="">EN</label>
               </div>
 

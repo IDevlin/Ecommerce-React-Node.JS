@@ -7,6 +7,8 @@ const Search = ({cartItem}) => {
         const search = document.querySelector('.search')
         search.classList.toggle('active', window.scrollY > 100)
     })
+
+    console.log(cartItem)
     return (
         <>
             <section className="search">
@@ -26,7 +28,7 @@ const Search = ({cartItem}) => {
                         <div className="cart">
                             <Link to='/cart'>
                             <i className="fa fa-shopping-bag icon_circle"></i>
-                            <span>{cartItem.length === 0? "": cartItem.length}</span>
+                            <span>{cartItem.length === 0? "0": cartItem.length} </span>
                             </Link>
                         </div>
                     </div>
