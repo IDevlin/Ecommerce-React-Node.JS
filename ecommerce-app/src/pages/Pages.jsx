@@ -4,8 +4,9 @@ import FlashDeals from '../components/flashDeals/FlashDeals'
 import Home from '../components/mainpage/Home'
 import NewArrivals from '../components/newarrivals/NewArrivals'
 import TopCate from '../components/top/TopCate'
+import Shop from '../components/shop/Shop'
 
-const Pages = ({productItems, addToCart}) => {
+const Pages = ({productItems, addToCart, shopItems}) => {
   return (
     <>
         <Home />
@@ -13,6 +14,7 @@ const Pages = ({productItems, addToCart}) => {
         <TopCate/>
         <NewArrivals/>
         <Discount/>
+        <Shop shopItems={shopItems}/>
     </>
   )
 }

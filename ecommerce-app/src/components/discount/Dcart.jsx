@@ -1,7 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
 import Ddata from './Ddata'
-import './style.css'
+import "../newarrivals/style.css"
+
 
 function Dcart() {
     const settings = {
@@ -14,24 +15,27 @@ function Dcart() {
         margin: 20
       };
   return (
-    
+    <>
 
         <Slider {...settings}>
         {Ddata.map((value,index)=> {
             return (
-              <div className="box-discount" key={index}>
-           
+               <>
+              <div className="product" key={index}>
+                <div className="box">
                   <div className="img" >
                     <img src={value.cover} alt="" width='100%' />
-                 </div>
+                  </div>
                    <h4>{value.name}</h4>
-                  <span>{value.price}</span>
-            
+                   <span>{value.price}</span>
+                </div>
               </div>
+               </>
             )
+           
         })}
          </Slider>
-
+         </>
   )
 }
 

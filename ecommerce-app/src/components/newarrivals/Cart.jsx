@@ -4,7 +4,6 @@ import Ndata from './Ndata'
 const Cart = () => {
   return (
     <>
-
       <div className="content grid product">
         {Ndata.map((value,index)=> {
             return (
