@@ -14,7 +14,7 @@ const Pages = ({productItems, addToCart, shopItems}) => {
         <TopCate/>
         <NewArrivals/>
         <Discount/>
-        <Shop shopItems={shopItems}/>
+        <Shop shopItems={shopItems} addToCart={addToCart}/>
     </>
   )
 }
