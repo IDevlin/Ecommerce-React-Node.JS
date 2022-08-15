@@ -17,7 +17,6 @@
   margin: 15px 0;
   transition: 0.5s;
   border-radius: 5px;
-  background: cadetblue;
   padding: 5px 10px;
 }
 .shop .category .box img {
@@ -49,4 +48,16 @@
 }
 .shop .product img {
    width: 100%; 
+}
+.shop .product {
+  transition: 0.5s;
+}
+.shop .product:hover {
+  box-shadow: rgba(23, 23, 24, 0.5) 0 4px 16px;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+
 }
